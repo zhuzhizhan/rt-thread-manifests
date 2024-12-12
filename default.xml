@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/zhuzhizhan/" name="origin" review="https://github.com/zhuzhizhan/"/>
+
+  <default remote="origin" revision="master" sync-j="4"/>
+
+  <project name="rt-thread-scripts" path="./" revision="main"/>
+  <project name="u-boot" path="u-boot" revision="develop"/>
+  <project name="opensbi" path="opensbi" revision="develop"/>
+  <project name="rt-thread" path="rt-thread" revision="develop"/>
+  <project name="arm-trusted-firmware" path="arm-trusted-firmware" revision="develop"/>
+</manifest>
